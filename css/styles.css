@@ -96,8 +96,8 @@ ul {
 
 /* Кнопка */
 .hero-button{
-    color: var(--primary-text-color);
-    background-color: var(--button-bg-color);
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
@@ -106,12 +106,6 @@ ul {
     cursor: pointer;
     font-family: inherit;
     border-width: 0;
-}
-
-.hero-button:hover,
-.hero-button:focus{
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -132,6 +126,7 @@ ul {
 
  .title{
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
@@ -146,7 +141,7 @@ ul {
     border-radius: 0px 0px 4px 4px;
 }
 
-.bg-color> .title{
+.bg-color> .title-name{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
